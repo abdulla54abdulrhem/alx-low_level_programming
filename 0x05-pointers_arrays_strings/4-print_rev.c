@@ -13,10 +13,10 @@ char *ss = (char *) malloc (len * sizeof(char));
 int i;
 for (i = 0; i < len; i++)
 {
-ss[i]=(*s);
+ss[i] = (*s);
 s++;
 }
-for(i = len -1 ;i >= 0; i--)
+for (i = len -1; i >= 0; i--)
 {
 _putchar(ss[i]);
 }
