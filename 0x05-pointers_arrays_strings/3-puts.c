@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "2-strlen.c"
 /**
  * _puts - function thar prints a string
  * @str : pointer to a string
