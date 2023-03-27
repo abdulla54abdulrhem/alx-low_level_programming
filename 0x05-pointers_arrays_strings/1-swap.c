@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * swap_int : just swap
+ * swap_int - just swap
  *
+ * @a : in tpointer
+ * @b : int pointer
  * @tmp : just var
  *
  */
