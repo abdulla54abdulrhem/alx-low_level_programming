@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset_to_98 : just 98
+ * reset_to_98 - just 98
  * @n : just a poiinter
  *
  */
