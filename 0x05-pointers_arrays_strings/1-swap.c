@@ -4,7 +4,7 @@
  *
  * @a : in tpointer
  * @b : int pointer
- * @tmp : just var
+ *
  *
  */
 void swap_int(int *a, int *b)
