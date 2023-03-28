@@ -16,7 +16,7 @@ else
 {
 n = n / 2;
 }
-for (i = 0; i < nn; i++)
+for (i = n; i < nn; i++)
 {
 _putchar(str[i]);
 }
