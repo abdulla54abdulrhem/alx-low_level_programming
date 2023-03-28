@@ -3,7 +3,7 @@
  * _strcpy - copy 2 strings
  * @dest : ptr
  *@src : ptr
- * Return : pointer to char
+ * Return: pointer to char
  *
  */
 char *_strcpy(char *dest, char *src)
@@ -15,5 +15,6 @@ while ((*src != '\0'))
 src++;
 tmp++;
 }
-return dest;
+(*tmp) = '\0';
+return (dest);
 }
