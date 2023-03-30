@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * _strcat - function to cat 2 string
- * @dest : pointer to string
- * @src : pointer to string
+ * _strcat - concats two arrays
  *
- * Return: char pointer
+ * @dest: destination of concat
+ * @src: source array to concat
+ *
+ * Return: char value
  */
 char *_strcat(char *dest, char *src)
 {
