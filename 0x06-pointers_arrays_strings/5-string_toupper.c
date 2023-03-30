@@ -7,7 +7,7 @@
  */
 char *string_toupper(char *s)
 {
-char *tmp
+char *tmp;
 tmp = s;
 while((*s) != '\0')
 {
