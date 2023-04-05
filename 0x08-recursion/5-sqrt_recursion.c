@@ -8,7 +8,7 @@
 int help(int i, int n)
 {
 int j;
-if (i *i != n)
+if (i * i != n)
 {
 if (i > n)
 return (-1);
