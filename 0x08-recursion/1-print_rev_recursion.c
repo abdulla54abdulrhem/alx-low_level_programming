@@ -2,7 +2,7 @@
 /**
 * _print_rev_recursion - prints string in rev
 * 
-* @s : pointer to string
+*@s : pointer to string
 *
 *
 */
