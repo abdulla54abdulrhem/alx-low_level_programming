@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 /**
 * factorial - calc fact of number
 * @n : integer value
