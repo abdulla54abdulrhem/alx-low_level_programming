@@ -3,14 +3,14 @@
 * help - loop recursively
 * @i : integer
 * @n : integer
-* Retrun: answer
+* Return: answer
 */
-int help(int i,int n)
+int help(int i, int n)
 {
 if (n % i == 0 && n != i)
 return (0);
 if (n % i != 0 && i < n)
-return (help(i+1,n));
+return (help(i+1, n));
 return (1);
 }
 /**
@@ -24,5 +24,5 @@ int i;
 i = 2;
 if (n < 2)
 return (0);
-return (help(i,n));
+return (help(i, n));
 }
