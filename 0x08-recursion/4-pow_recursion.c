@@ -17,8 +17,8 @@ tmp = y / 2;
 res = _pow_recursion(x, tmp);
 if (y & 1)
 {
-return (res * res * x);
+return (res *res *x);
 }
 else
-return (res * res);
+return (res *res);
 }
