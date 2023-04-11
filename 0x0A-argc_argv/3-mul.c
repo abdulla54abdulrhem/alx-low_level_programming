@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  *
@@ -19,7 +20,7 @@ printf("Error\n");
 return (1);
 }
 int tmp;
-tmp = argv[1] * argv[2];
+tmp = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n",tmp);
 return (0);
 }
