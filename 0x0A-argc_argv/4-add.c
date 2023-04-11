@@ -5,7 +5,6 @@
 /**
  * checkNumber - check is string is number or not
  * @s : pointer to string
- *
  * Return: zero or one
  */
 int checkNumber(char *s)
@@ -22,7 +21,6 @@ int checkNumber(char *s)
  * main - main function
  * @argc : integer
  * @argv : arg vector
- *
  * Return: 0 or 1
  */
 int main(int argc, char *argv[])
