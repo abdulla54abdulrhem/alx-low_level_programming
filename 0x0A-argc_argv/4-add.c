@@ -40,6 +40,6 @@ printf("Error\n");
 return (1);
 }
 }
-printf("%d\n",sum);
+printf("%d\n", sum);
 return (0);
 }
