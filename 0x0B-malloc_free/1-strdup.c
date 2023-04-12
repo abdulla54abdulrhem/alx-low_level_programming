@@ -14,7 +14,10 @@ char *cpy;
 char *tmp;
 tmp = str;
 len = 0;
-while (*tmp != '\0'){
+if (str == NULL)
+return (NULL);
+while (*tmp != '\0')
+{
 len++;
 tmp++;
 }
