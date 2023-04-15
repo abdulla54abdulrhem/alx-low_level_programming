@@ -7,9 +7,7 @@
  * @old_size: The size of the allocated space for ptr.
  * @new_size: The new size to allocate for the memory block.
  *
- * Return: If new_size == old_size - ptr.
- *         If new_size == 0 and ptr != NULL - NULL.
- *         Otherwise - a pointer to the reallocated memory block.
+ * Return: If new_si
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
