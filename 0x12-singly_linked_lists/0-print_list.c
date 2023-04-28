@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
- *  print_list - print linked list
- * @h: linked list pointer
- * Return: counter
- */
+*  print_list - print linked list
+* @h: linked list pointer
+* Return: counter
+*/
 size_t print_list(const list_t *h)
 {
 int i;
